@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes"  />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no">
+	<title>商城-注册</title>
+	<link rel="apple-touch-icon-precomposed" href="images/haoroomsicon.jpg" />
+	<link rel="apple-touch-startup-image" href="images/haoroomsicon.jpg" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<header class="u-header">
+  <div class="uc_return">
+            <div class="uc_return_l" onclick="window.history.back()"></div>
+            <div class="uc_return_c">注册</div>
+            <div class="uc_return_r"><a href="login.html">登录</a></div>
+   </div>
+  
+</header>
+
+<section class="logging">
+        <ul class="bgf  outborder">
+            <li class="pt12 pb12 border_bottom">
+	            <s></s>
+	            <input name="mobile" type="text" placeholder="请输入您的手机号" id="login_userName">
+	            <s class="warn" id="pass1_error" style="display:none;"></s>
+            </li>
+            <li class="pt12 pb12">
+	            <s class="uc_logging_password"></s>
+	            <input name="userpwd" type="password" placeholder="请设置您的密码" id="login_Password">
+	            <s class="warn" id="pass_error" style="display:none;"></s>
+            </li>
+             <li class="pt12 pb12">
+	            <s class="uc_logging_password"></s>
+	            <input name="userpwd0" type="password" placeholder="请再次输入您的密码" id="login_Password0">
+	            <s class="warn" id="pass_error" style="display:none;"></s>
+            </li>
+            <li class="pt12 pb12">
+	            <input name="sigin_corde" type="text" class="corde" placeholder=" 请您输入验证码" id="sigin_corde">
+	             <input name="bnt_corde" type="button" class="corde1 corde_btn" placeholder=" 请您输入验证码" value="发送短信验证" id="btn_corde">
+	           
+            </li>
+        </ul>
+        <div class="btn_wrap" id="login_user">
+            <span class="btn">注册</span>
+        </div>
+        <div class="quick_register">
+            <div><a href="login.html">快速登录&gt;</a></div>
+        </div>
+ </section>
+
+
+
+
+
+ <script src="script/libs/require.js"  data-main="script/views/enterjs/mainconfig"></script>
+</body>
+</html>
